@@ -1,0 +1,20 @@
+{
+  "name": "pacman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Carminati Giovanni, Davide Scotti",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socketio": "^1.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.13"
+  }
+}
