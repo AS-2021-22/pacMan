@@ -249,7 +249,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   //check for a win - more is when this score is reached
   function checkForWin() {
-    if (!squares.classList.contains("pac-dot")) {
+    if (score === 2740) {
       ghosts.forEach(ghost => clearInterval(ghost.timerId))
       document.removeEventListener('keyup', movePacman)
       setTimeout(function(){ alert("You have WON!"); }, 500)
